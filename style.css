@@ -1,1 +1,151 @@
-/*  Add your styling here */
+
+/*.dropdown-icon {
+    width: 30px;
+}
+
+.Dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980b9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show{display:block;}*/
+
+/*html main sections*/
+.body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+}
+.main{
+
+}
+.footer {
+  background-color: lightgray;
+  padding: rem 0;
+}
+/*header*/
+.logo {
+
+}
+/*nav*/
+.nav {
+
+}
+.nav-list {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: black;
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+}
+.nav-link{
+
+}
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  border: black solid 1px;
+  background: white;
+  cursor: pointer;
+}
+.closeIcon {
+  display: none;
+}
+.showMenu {
+  transform: translateY(0);
+}
+/*welcome*/
+.welcome-sec {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-start: span 1;
+  grid-template-areas: "welcome" "welcome-text" "welcome-img";
+}
+.welcome-heading {
+  grid-area: welcome;
+  display: flex;
+  flex-direction: column;
+}
+.welcome-text {
+  grid-area: welcome-text;
+}
+.welcome-img {
+  grid-area: welcome-img;
+  width: 400px;
+  height: auto;
+}
+/* cake pics section*/
+.cake-pics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  margin: auto;
+  grid-gap: 5%;
+  margin-top: 2rem;
+}
+.cake-pic {
+    height: 200px;
+    width: 200px;
+}
+/*footer section*/
+.footer-sec {
+
+}
+.footer-content {
+  width: px;
+  height: px;
+  margin-top: px;
+}
+.copyright {
+  width: px;
+  height: px;
+  background-color: darkgray;
+  margin: rem auto 0 auto;
+}
